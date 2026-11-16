@@ -1,0 +1,173 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: black;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar */
+.navbar {
+  background-color: darkblue;
+  color: white;
+  padding: 15px;
+  overflow: hidden;
+}
+
+.brand {
+  float: left;
+  margin: 0;
+  font-size: 24px;
+}
+
+.menu {
+  float: right;
+}
+
+.menu a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+/* Hero */
+.hero {
+  background-color: lightblue;
+  text-align: center;
+  padding: 50px;
+}
+
+.hero h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+/* Section */
+.section {
+  padding: 40px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.section h2 {
+  font-size: 30px;
+  color: darkblue;
+}
+
+.section h3 {
+  font-size: 22px;
+}
+
+.section p {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.abu {
+  background-color: lightgray;
+}
+
+/* Gambar supaya tidak keluar dari layar */
+img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* Footer */
+.footer {
+  background-color: darkblue;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+
+/* ===== Tampilan Tablet (lebar layar 768px ke bawah) ===== */
+@media (max-width: 768px) {
+
+  .navbar {
+    text-align: center;
+  }
+
+  .brand {
+    float: none;
+    margin-bottom: 10px;
+  }
+
+  .menu {
+    float: none;
+  }
+
+  .menu a {
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+
+  .hero {
+    padding: 30px;
+  }
+
+  .hero h1 {
+    font-size: 32px;
+  }
+
+  .section {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 25px;
+  }
+
+  .section h2 {
+    font-size: 26px;
+  }
+}
+
+
+/* ===== Tampilan HP (lebar layar 480px ke bawah) ===== */
+@media (max-width: 480px) {
+
+  .brand {
+    font-size: 20px;
+  }
+
+  .menu a {
+    display: block;
+    margin: 8px;
+  }
+
+  .hero {
+    padding: 20px;
+  }
+
+  .hero h1 {
+    font-size: 26px;
+  }
+
+  .hero p {
+    font-size: 16px;
+  }
+
+  .section {
+    margin-left: 0;
+    margin-right: 0;
+    padding: 20px;
+  }
+
+  .section h2 {
+    font-size: 22px;
+  }
+
+  .section h3 {
+    font-size: 18px;
+  }
+}
